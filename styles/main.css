@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
+@import url("https://fonts.googleapis.com/css2?family=Lusitana&display=swap");
 
 /*Typography
 --------------------------------------------------------------*/
@@ -7,18 +7,36 @@ button,
 input,
 select,
 textarea {
-	color: #404040;
-	font-family: "Comfortaa", Arial, sans-serif;
+	color: #FFFFFF;
+	font-family: "Lusitana", Arial, sans-serif;
 	font-size: 14px;
 	line-height: 1.5;
 }
 
+h1 {
+	text-align: center;	
+}
+
 h1,h2,h3,h4,h5,h6 {
-  font-family: "Patua One", serif;
+  font-family: "Lusitana", serif;
   letter-spacing: 2px;
 }
 
 fieldset {
 	display:flex;
 	flex-direction: column;
+	border: none;	
+}
+
+body {
+	background-image: url("./dj_images/DJW.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.btn {
+	display: flex;
+	margin: 10px;
+	background-color: #000000;
+	margin-left: 13px;
 }
