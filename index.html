@@ -3,45 +3,66 @@
     <head>
         <meta charset="utf-8">
         <title>Daily Journal</title>
-        <meta name ="viewport" content="width=device-width, initial-scale=">
+        <meta name ="viewport" content="width=device-width">
         <link rel="stylesheet" media="screen" href="./styles/main.css">
     </head>
 <script type="module" src="./scripts/main.js"></script>
-    <body>
-        <h2>Daily Journal</h2>
-        <form action="">
-            <fieldset>
-                <label for="journalDate">Date of Entry</label>
-                <input type="date" name="journalDate" id="journalDate">
-            </fieldset>
-        </form>
-        <form action="">
-            <fieldset>
-                <label for="journalConcepts">Concepts Covered</label>
-                <input type="text" name="journalConcepts" id="journalConcepts">
-            </fieldset>    
-        </form>
-        <form action="">
-            <fieldset>
-                <label for="journalEntry">Journal Entry</label>
-                <textarea name="journalEntry" id="journalEntry" rows="3" cols="20"></textarea>
-            </fieldset>    
-        </form>
-        <form action="">
-            <fieldset>
-                <label for="journalMood">Mood for the Day</label>
-                <select name="journalMood" id="journalMood">
-                    <option value="happy">Happy</option>
-                    <option value="sad">Sad</option>
-                    <option value="sleepy">Sleepy</option>
-                    <option value="good">Good</option>
-                    <option value="stressed">Stressed</option>
-                    <option value="weird">Weird</option>
-                </select>
-            </fieldset>    
-        </form>
-        <script type="module" src="./scripts/main.js"></script>
-    <input class="btn" type="submit" value="Submit Journal Entry">
+    
+<body>
+    <header>
+        <nav>
+            <h1>Daily Journal</h1>
+        </nav>
+    </header>
+    <!-- Contains everything  -->
+    <main id="container">     
+        <div class="contentContainer__left">
+            <form action="">
+                <fieldset>
+                    <label for="journalDate">Date of Entry</label>
+                    <input type="date" name="journalDate" id="journalDate">
+                </fieldset>
+            </form>
+            <form action="">
+                <fieldset>
+                    <label for="journalConcepts">Concepts Covered</label>
+                    <input type="text" name="journalConcepts" id="journalConcepts">
+                </fieldset>    
+            </form>
+            <form action="">
+                <fieldset>
+                    <label for="journalEntry">Journal Entry</label>
+                    <textarea name="journalEntry" id="journalEntry" rows="3" cols="20"></textarea>
+                </fieldset>    
+            </form>
+            <form action="">
+                <fieldset>
+                    <label for="journalMood">Mood for the Day</label>
+                    <select name="journalMood" id="journalMood">
+                        <option value="happy">Happy</option>
+                        <option value="sad">Sad</option>
+                        <option value="sleepy">Sleepy</option>
+                        <option value="good">Good</option>
+                        <option value="stressed">Stressed</option>
+                        <option value="weird">Weird</option>
+                    </select>
+                </fieldset>    
+            </form>
+                <script type="module" src="./scripts/main.js"></script>
+            <input class="btn" type="submit" value="Submit Journal Entry">
+        </div>
+
+        <div class="contentContainer__right">
+            <div class="entryLog">
+                
+            </div>
+                
+        </div>
+    </main>
+
+    <footer>
+        <p></p>
+    </footer>
 
     </body>
 </html>
