@@ -4,4 +4,4 @@ import { useJournalEntries } from "./JournalDataProvider.js"
 const allTheEntries = useJournalEntries
 
 entryLog()
-entryListComponent()
+useJournalEntries()
