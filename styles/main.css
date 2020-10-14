@@ -14,7 +14,18 @@ textarea {
 }
 
 h1 {
-	text-align: center;	
+	text-align: center;
+	font-size: 45px;	
+}
+
+h2 {
+	text-align: left;
+	font-size: 20px;
+}
+
+h3 {
+	text-align: right;
+	font-size: 20px;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -34,9 +45,28 @@ body {
 	background-repeat: no-repeat;
 }
 
-.btn {
+.container {
 	display: flex;
+	justify-content: space-evenly;
+}
+
+.contentContainer__left{
+	flex-basis: 30%;
+	flex-direction: column;
+}
+
+.contentContainer__right{
+	justify-content: flex-end;
+	flex: 1;
+	flex-basis: 30%;
+	text-align: right;
+	flex-direction: column;
+}
+
+.btn {
+	width: fit-content;
 	margin: 10px;
 	background-color: #000000;
 	margin-left: 13px;
+	flex-direction: column;
 }
