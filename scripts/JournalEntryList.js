@@ -30,8 +30,7 @@ export const entryLog = () => {
 
 
     contentElement.innerHTML += `
-    <section class="entryList">
-    <h3>Past Events</h3>
+    <section class="entryLog">
     <div class="entryContainer">
         ${journalEntryHTML}
     </div>
