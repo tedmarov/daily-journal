@@ -3,12 +3,15 @@ fieldset {
 	flex-direction: column;
 	border: none;
 	align-content: left;
-	width: fit-content;
+	width: fit-content;	
 }
 
-body {
+form{
+	color: white;
+}
+
+nav {
 	background-image: url("./dj_images/DJW.jpg");
-	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
@@ -38,7 +41,8 @@ body {
 .btn {
 	width: fit-content;
 	margin: 10px;
-	background-color: #000000;
+	background-color: #ffffff;
 	margin-left: 13px;
 	flex-direction: column;
+	font-family: "Lusitana", Arial, sans-serif;
 }
