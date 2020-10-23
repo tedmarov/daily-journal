@@ -7,17 +7,22 @@
 
  
 import { journalEntryComponent } from "./JournalEntry.js"
-import { useJournalEntries } from "./JournalDataProvider.js"
+import { getEntries, useJournalEntries } from "./JournalDataProvider.js"
 
 
 // DOM reference to where all entries will be rendered
+const contentElement = document.querySelector(".entryLog")
+
 export const entryLog = () => {
-    const contentElement = document.querySelector(".entryLog")
-
-    const entries = useJournalEntries()
-
+    getEntries()
+    .then(() => {
+        const entries = useJournalEntries()
+        render(entries)
     // Use the journal entry data from the data provider component
+    })
+}
 
+const render = (entries) => {    
     let journalEntryHTML = ""
     for (const entry of entries) {
         /*
@@ -26,15 +31,10 @@ export const entryLog = () => {
         */
         journalEntryHTML += journalEntryComponent(entry)
     }
-
-
-
     contentElement.innerHTML += `
-    <section class="entryLog">
     <div class="entryContainer">
         ${journalEntryHTML}
     </div>
-    </section>
     `
 
 }

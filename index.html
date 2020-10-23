@@ -14,7 +14,7 @@
         </nav>
     </header>
     <!-- Contains everything  -->
-    <main id="container">     
+    <main class="container">     
         <article class="contentContainer__left">
             <h2>Current Events</h2>
             <form action="">
@@ -39,13 +39,14 @@
                 <fieldset>
                     <label for="journalMood">Mood for the Day</label>
                     <select name="journalMood" id="journalMood">
+                        <option value="">--Please choose an option--</option>
                         <option value="happy">Happy</option>
                         <option value="sad">Sad</option>
                         <option value="sleepy">Sleepy</option>
                         <option value="good">Good</option>
                         <option value="stressed">Stressed</option>
                         <option value="weird">Weird</option>
-                </select>
+                    </select>
             </fieldset>    
         </form>
         <input class="btn" type="submit" value="Submit Journal Entry">
