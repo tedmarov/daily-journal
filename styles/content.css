@@ -1,48 +1,63 @@
+.entryContainer{
+	border-style: groove;
+	border-color: whitesmoke;
+	padding: 15px;
+	margin: 0 0 30px 0;
+}
+
 fieldset {
-	display:flex;
+	display: flex;
 	flex-direction: column;
 	border: none;
 	align-content: left;
-	width: fit-content;	
+	width: fit-content;
+	margin: 10px;
 }
 
 form{
 	color: white;
 }
 
-nav {
-	background-image: url("./dj_images/DJW.jpg");
+/* header {
+	background-image: url("./dj_images/DJW_Cropped.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-}
+	width: auto;
+	height: 120px;
+} */
 
 .container {
 	display: flex;
 	justify-content: space-evenly;
 }
 
+.formItems{
+	border-style: groove;
+	border-color: white;
+}
 
 .contentContainer__left{
-	flex: 2;
+	flex: 1;
 	flex-direction: column;
 }
 
-.contentContainer__right{
+.contentContainer__right, .pastEvents{
 	text-align: right;
 	flex: 1;	
 	flex-direction: column;
 }
 
-/* .contentContainer__center{
-	text-align: center;
-	align-self: center;
-} */
+.contentContainer__center{
+	flex: 2;
+	background-image: url("./dj_images/DJW_Cropped.jpg");
+	background-attachment: fixed;
+	margin: 0 20px 0 20px;
 
-.btn {
+}
+
+button {
 	width: fit-content;
-	margin: 10px;
 	background-color: #ffffff;
-	margin-left: 13px;
 	flex-direction: column;
-	font-family: "Lusitana", Arial, sans-serif;
+	font-family: "Lusitana", Arial, sans-serif
 }

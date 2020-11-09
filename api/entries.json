@@ -1,25 +1,51 @@
 {
-    "entries": [
-        {
-            "id": 1,
-            "concept": "HTML & CSS",
-            "date": "07/24/2025",
-            "entry": "We talked about HTML components and how to make grid layouts with Flexbox in CSS.",
-            "mood": "Ok"
-        },
-        {
-            "id": 2,
-            "concept": "Complex Flexbox",
-            "date": "07/26/2025",
-            "entry": "I tried to have an element in my Flexbox layout also be another Flexbox layout. It hurt my brain. I hate Steve.",
-            "mood": "Sad"
-        },
-        {
-            "id": 3,
-            "concept": "Too much JS",
-            "date": "07/28/2025",
-            "entry": "I tried to JS and it hurt my brain.",
-            "mood": "Stressed"
-        }
-    ]
+  "entries": [
+    {
+      "id": 1,
+      "concepts": "HTML & CSS",
+      "dateOfEntry": "07/24/2025",
+      "entry": "We talked about HTML components and how to make grid layouts with Flexbox in CSS.",
+      "moodId": 4
+    },
+    {
+      "id": 2,
+      "concepts": "Complex Flexbox",
+      "dateOfEntry": "07/26/2025",
+      "entry": "I tried to have an element in my Flexbox layout also be another Flexbox layout. It hurt my brain. I hate Steve.",
+      "moodId": 2
+    },
+    {
+      "dateOfEntry": "3443-02-12",
+      "concepts": "THE FUTURE",
+      "entry": "IS CHROMEE",
+      "moodId": 1,
+      "id": 3
+    }
+  ],
+  "moods": [
+    {
+      "id": 1,
+      "label": "Happy"
+    },
+    {
+      "id": 2,
+      "label": "Sad"
+    },
+    {
+      "id": 3,
+      "label": "Sleepy"
+    },
+    {
+      "id": 4,
+      "label": "Good"
+    },
+    {
+      "id": 5,
+      "label": "Stressed"
+    },
+    {
+      "id": 6,
+      "label": "Weird"
+    }
+  ]
 }
