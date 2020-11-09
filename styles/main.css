@@ -3,23 +3,20 @@
 
 /*Typography
 --------------------------------------------------------------*/
-body,
-button,
-select
+body
  {
 	color: #ffffff;
 	font-family: "Lusitana", Arial, sans-serif;
 	font-size: 14px;
 	line-height: 1.5;
-}
-
-body{
 	background-color: black;
 }
 
+select,
 textarea,
 input{
 	color: black;
+	font-family: "Lusitana", Arial, sans-serif;
 }
 
 h1 {
