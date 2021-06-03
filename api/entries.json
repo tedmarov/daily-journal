@@ -1,18 +1,18 @@
 {
   "entries": [
     {
-      "id": 1,
       "concepts": "HTML & CSS",
       "dateOfEntry": "07/24/2025",
       "entry": "We talked about HTML components and how to make grid layouts with Flexbox in CSS.",
-      "moodId": 4
+      "moodId": 4,
+      "id": 1
     },
     {
-      "id": 2,
       "concepts": "Complex Flexbox",
       "dateOfEntry": "07/26/2025",
       "entry": "I tried to have an element in my Flexbox layout also be another Flexbox layout. It hurt my brain. I hate Steve.",
-      "moodId": 2
+      "moodId": 2,
+      "id": 2
     },
     {
       "dateOfEntry": "3443-02-12",
@@ -47,5 +47,36 @@
       "id": 6,
       "label": "Weird"
     }
-  ]
+  ],
+  "entrytags": [
+    {
+        "id": 1,
+        "entryId": 1,
+        "tagId": 3
+    },
+    {
+        "id": 2,
+        "entryId": 3,
+        "tagId": 2
+    },
+    {
+        "id": 2,
+        "entryId": 2,
+        "tagId": 1
+    }
+],
+  "tags": [
+    {
+        "id": 1,
+        "subject": "API"
+    },
+    {
+        "id": 2,
+        "subject": "components"
+    },
+    {
+        "id": 3,
+        "subject": "fetch"
+    }
+]
 }

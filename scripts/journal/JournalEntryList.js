@@ -8,7 +8,7 @@
  
 import { journalEntryComponent } from "./JournalEntry.js"
 import { getEntries, useJournalEntries, deleteEntry } from "./JournalDataProvider.js"
-import { getMoods, useMoods } from "../mood/MoodProvider.js"
+import { getMoods } from "../mood/MoodProvider.js"
 
 // DOM reference to where all entries will be rendered
 const contentElement = document.querySelector(".entryLog")
@@ -38,7 +38,6 @@ const render = (entries) => {
             ${journalEntryComponent(entry)}
         </div>
     `
-    
 }
     contentElement.innerHTML = journalEntryHTML
 }
