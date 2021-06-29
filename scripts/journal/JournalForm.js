@@ -40,6 +40,7 @@ const render = moods => {
             <fieldset>
             <button id="submitJournalEntry">Submit Journal Entry</button>
             </fieldset>
+            <div class="filters"></div>
             </form>
     </div>
     `
